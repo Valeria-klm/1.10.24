@@ -1,5 +1,21 @@
 <!DOCTYPE html>
-<b><label> <input type="Валерія"><b>
-<i> <label> <input type="мій емаіл"><i>
-<label> <input type="пароль">
-<form> <input type="submit"><form>
+<head>
+    <title>Форма реєстрації</title>
+</head>
+<body>
+
+    <h1>Форма</h1>
+
+    <form action="/submit" method="post">
+        <label for="name"><b>Валерія</b></label>
+
+        <label for="email"><i>varivodavalria@.gmail.com</i></label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Поле для введення пароля -->
+        <label for="password">0567898fg</label>
+        <input type="submit" value=форма>
+    </form>
+
+</body>
+</html>
